@@ -68,6 +68,10 @@
     <Content Include="img\gato_calico.jpg">
       <Link>gato_calico.jpg</Link>
     </Content>
+    <Content Include="img\gato_atigrado.jpg">
+      <Link>gato_atigrado.jpg</Link>
+    </Content>
+    <Content Include="gatoAtigrado.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -86,6 +90,9 @@
     </None>
     <None Include="img\gato_gris.jpg.zip">
       <Link>gato_gris.jpg.zip</Link>
+    </None>
+    <None Include="img\gato_atigrado.jpg.zip">
+      <Link>gato_atigrado.jpg.zip</Link>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
