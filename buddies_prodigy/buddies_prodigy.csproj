@@ -54,12 +54,12 @@
       <Link>gato_esmoquin.jpg</Link>
     </Content>
     <Content Include="gatoCalico.html" />
-    <Content Include="img\gato_calico.png">
-      <Link>gato_calico.png</Link>
-    </Content>
     <Content Include="gatoGris.html" />
     <Content Include="img\gato_gris.jpg">
       <Link>gato_gris.jpg</Link>
+    </Content>
+    <Content Include="img\gato_calico.jpg">
+      <Link>gato_calico.jpg</Link>
     </Content>
   </ItemGroup>
   <ItemGroup>
