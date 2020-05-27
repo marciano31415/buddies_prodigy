@@ -76,6 +76,18 @@
     <Content Include="img\gato_siames.jpg">
       <Link>gato_siames.jpg</Link>
     </Content>
+    <Content Include="img\perro_beagle.jpg">
+      <Link>perro_beagle.jpg</Link>
+    </Content>
+    <Content Include="img\perro_hisky.jpg">
+      <Link>perro_hisky.jpg</Link>
+    </Content>
+    <Content Include="img\perro_pastor.jpg">
+      <Link>perro_pastor.jpg</Link>
+    </Content>
+    <Content Include="img\perro_shiba_inu.jpg">
+      <Link>perro_shiba_inu.jpg</Link>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -100,6 +112,18 @@
     </None>
     <None Include="img\gato_siames.jpg.zip">
       <Link>gato_siames.jpg.zip</Link>
+    </None>
+    <None Include="img\perro_beagle.jpg.zip">
+      <Link>perro_beagle.jpg.zip</Link>
+    </None>
+    <None Include="img\perro_hisky.jpg.zip">
+      <Link>perro_hisky.jpg.zip</Link>
+    </None>
+    <None Include="img\perro_pastor.jpg.zip">
+      <Link>perro_pastor.jpg.zip</Link>
+    </None>
+    <None Include="img\perro_shiba_inu.jpg.zip">
+      <Link>perro_shiba_inu.jpg.zip</Link>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
