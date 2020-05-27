@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,25 +53,29 @@
     <Content Include="index.html" />
     <Content Include="gatos.html" />
     <Content Include="gatoBlanco.html" />
-    <Content Include="img\gato_blanco.jpg">
-      <Link>gato_blanco.jpg</Link>
-    </Content>
     <Content Include="gatoEsmoquin.html" />
-    <Content Include="img\gato_esmoquin.jpg">
-      <Link>gato_esmoquin.jpg</Link>
-    </Content>
     <Content Include="gatoCalico.html" />
     <Content Include="gatoGris.html" />
-    <Content Include="img\gato_gris.jpg">
-      <Link>gato_gris.jpg</Link>
+    <Content Include="gatoAtigrado.html" />
+    <Content Include="gatoSiames.html" />
+    <Content Include="img\gato_atigrado.jpg">
+      <Link>gato_atigrado.jpg</Link>
+    </Content>
+    <Content Include="img\gato_blanco.jpg">
+      <Link>gato_blanco.jpg</Link>
     </Content>
     <Content Include="img\gato_calico.jpg">
       <Link>gato_calico.jpg</Link>
     </Content>
-    <Content Include="img\gato_atigrado.jpg">
-      <Link>gato_atigrado.jpg</Link>
+    <Content Include="img\gato_esmoquin.jpg">
+      <Link>gato_esmoquin.jpg</Link>
     </Content>
-    <Content Include="gatoAtigrado.html" />
+    <Content Include="img\gato_gris.jpg">
+      <Link>gato_gris.jpg</Link>
+    </Content>
+    <Content Include="img\gato_siames.jpg">
+      <Link>gato_siames.jpg</Link>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -79,20 +83,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="img\gato_atigrado.jpg.zip">
+      <Link>gato_atigrado.jpg.zip</Link>
+    </None>
     <None Include="img\gato_blanco.jpg.zip">
       <Link>gato_blanco.jpg.zip</Link>
-    </None>
-    <None Include="img\gato_esmoquin.jpg.zip">
-      <Link>gato_esmoquin.jpg.zip</Link>
     </None>
     <None Include="img\gato_calico.jpg.zip">
       <Link>gato_calico.jpg.zip</Link>
     </None>
+    <None Include="img\gato_esmoquin.jpg.zip">
+      <Link>gato_esmoquin.jpg.zip</Link>
+    </None>
     <None Include="img\gato_gris.jpg.zip">
       <Link>gato_gris.jpg.zip</Link>
     </None>
-    <None Include="img\gato_atigrado.jpg.zip">
-      <Link>gato_atigrado.jpg.zip</Link>
+    <None Include="img\gato_siames.jpg.zip">
+      <Link>gato_siames.jpg.zip</Link>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
