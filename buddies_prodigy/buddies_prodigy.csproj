@@ -88,6 +88,8 @@
     <Content Include="img\perro_shiba_inu.jpg">
       <Link>perro_shiba_inu.jpg</Link>
     </Content>
+    <Content Include="perros.html" />
+    <Content Include="pastor.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
