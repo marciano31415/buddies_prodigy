@@ -89,7 +89,6 @@
       <Link>perro_shiba_inu.jpg</Link>
     </Content>
     <Content Include="perros.html" />
-    <Content Include="pastor.html" />
     <Content Include="perroPastor.html" />
     <Content Include="electronico.html" />
   </ItemGroup>
