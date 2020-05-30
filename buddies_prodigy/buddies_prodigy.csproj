@@ -91,6 +91,7 @@
     <Content Include="perros.html" />
     <Content Include="perroPastor.html" />
     <Content Include="electronico.html" />
+    <Content Include="perroBeagle.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
